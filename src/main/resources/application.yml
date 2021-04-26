@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/liquib?currentSchema=liquib
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
